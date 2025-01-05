@@ -28,7 +28,7 @@ However, SH1106 driver don't provide several functions such as scroll commands.
 
 #include <avr/pgmspace.h>
 #ifndef __SAM3X8E__
- #include <util/delay.h>
+#import <Arduino.h>
 #endif
 #include <stdlib.h>
 
